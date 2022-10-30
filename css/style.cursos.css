@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    height: 50px;
+    background-image: url(../img/fondos/fondo2.jpg);   
+    background-size: 100rem;
+    position: relative;
+    margin-bottom: 100%;   
+    background-position: center;
+   
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(216, 34, 34, 0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+}
+
+.cursos{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(5, 4, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:5px 5px 4px #bcbcbe;
+
+}
+
+.botonera_principal ul{
+    list-style: none;
+}
+
+.botonera_principal ul li{
+    position: relative;
+    float: left;
+}
+.botonera_principal ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+ }
+
+.botonera_principal ul li a:hover{
+    background: #333;
+    color: #fff;
+} 
+
+.menu ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+.menu ul  li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.submenu ul{
+    left: 200px;
+    top: 0;
+}
+
+.menu li:focus-within .submenu,
+.menu li:hover .submenu{
+    display: initial;
+}
+
+#menu{
+    display: none;
+}
+
+label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+#contenido_principal{
+    width: 95%;
+    height: 300px; 
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+#imagen1{
+    background-image: url(../img/belleza/cosmetologia4.jpg);
+    width: 350px;
+    height: 198px;
+    float: left;
+    margin-bottom: 10px;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+#imagen2{
+    background-image: url(../img/belleza/peluqueria4.jpg);
+    width: 350px;
+    height: 198px;
+    float: left;
+    margin-bottom: 10px;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+#imagen3{
+    background-image: url(../img/belleza/manicuria4.jpg);
+    width: 350px;
+    height: 198px;
+    float: left;
+    margin-bottom: 10px;
+    background-size:contain;
+    border-radius: 10px;
+}
+
+#presentacion{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 198px;
+    float: right;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;    
+    border-radius: 10px;
+}
+/*
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde
+    padding: 10px; 
+    float: center;
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 50px; 
+    }
+*/
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 253, 253);
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    position: fixed;
+    margin-top: 30px;
+    bottom: 0;
+}
+
+.contact-info{
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+}
+
+#redes {
+    width: 350px;
+    height: 35px;
+    float: right;
+    padding: 10px;
+}
+
+#botonera_footer ul{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+#botonera_footer ul li {
+    display: inline;
+    padding: 3px;
+}
+#botonera_footer ul li a {
+    text-decoration: none;
+}
+
+#botonera_footer ul li img {
+    height: auto;
+    width: 2em;
+}
+

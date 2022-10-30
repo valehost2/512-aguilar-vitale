@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(202, 199, 204);
+    margin: 0%;
+    font-family: monospace;
+    
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(158, 130, 130, 0.5);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+form legend{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+input, label {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+
+}
+
+
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+
